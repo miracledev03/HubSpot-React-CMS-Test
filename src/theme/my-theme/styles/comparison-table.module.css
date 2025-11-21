@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.header {
+  margin-bottom: 64px;
+}
+
+.title {
+  color: var(--text-primary, #242727);
+  text-align: center;
+
+  /* Heading/H3/SemiBold */
+  font-family: var(--font-family-title, Figtree);
+  font-size: var(--font-size-xxxl, 40px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--font-line-height-xxxl, 48px); /* 120% */
+  margin: 0;
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr,
+.table th,
+.table td{
+  padding: 0;
+  margin: 0;
+}
+
+.colFeature {
+  width: 25%;
+}
+
+.colPlan {
+  width: 25%;
+}
+
+.planLabelCell {
+  vertical-align: bottom;
+}
+
+.planLabelTitle {
+  color: var(--text-primary, #242727);
+
+  /* Heading/H5/SemiBold */
+  font-family: var(--font-family-title, Figtree);
+  font-size: var(--font-size-xl, 28px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--font-line-height-xl, 36px); /* 128.571% */
+  margin-bottom: 2px;
+}
+
+.planLabelSub {
+  color: var(--text-secondary, #565F5F);
+
+  /* Paragraph/P2/Regular */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+}
+
+.planHeaderCell {
+  max-width: 320px;
+  background: #fff;
+}
+
+.planCard {
+  padding: var(--2, 4px) var(--4, 16px) var(--3, 8px) var(--4, 16px);
+}
+
+.planCardHighlighted {
+  background: var(--background-highlight, #DFF9F2);
+  border-radius: var(--3, 16px) var(--3, 16px) 0 0;
+}
+
+.planCardHighlighted.planCard {
+  border-bottom: 2px solid var(--background-highlight, #DFF9F2);
+}
+
+.planName {
+  color: var(--text-primary, #242727);
+
+  /* Paragraph/P1/SemiBold */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-m, 20px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--font-line-height-m, 28px); /* 140% */
+  padding: 0 4px;
+}
+
+.planPriceRow {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  gap: 4px;
+  padding: 0 4px;
+  text-align: left;
+}
+
+.planPrice {
+  color: var(--text-primary, #242727);
+
+  /* Heading/H6/Bold */
+  font-family: var(--font-family-title, Figtree);
+  font-size: var(--font-size-l, 24px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--font-line-height-l, 32px); /* 133.333% */
+}
+
+.planOriginalPrice {
+  color: var(--text-muted, #667070);
+  text-align: center;
+
+  /* Paragraph/P2/Regular */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+  text-decoration-line: line-through;
+}
+
+.planPromo {
+  color: var(--text-secondary, #565F5F);
+
+  /* Caption/SemiBold */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-xs, 14px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--font-line-height-xs, 20px); /* 142.857% */
+}
+
+.planPromo p {
+  margin: 0;
+  padding: 0 4px;
+}
+
+.planPromo b,
+.planPromo strong {
+  color: var(--text-link, #006A59);
+}
+
+.planBillingNote {
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.planCta {
+  display: flex;
+  padding: var(--3, 8px) var(--5, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--3, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded, 999px);
+  border: 1px solid var(--border-primary, #242727);
+  color: var(--text-primary, #242727);
+
+  /* Paragraph/P2/Medium */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.planCardHighlighted .planCta {
+  border-radius: var(--rounded, 999px);
+  background: var(--component-button-primary, #007C68);
+  color: var(--text-inverted, #FFF);
+
+  /* Paragraph/P2/Medium */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+  border: none;
+}
+
+.sectionRow th {
+  padding-top: var(--7, 48px);
+  padding-bottom: 16px;
+  width: 25%;
+  border-bottom: 1px solid var(--border-primary, #242727);
+}
+
+.sectionTitleCell {
+  text-align: left;
+}
+
+.sectionTitle {
+  color: var(--text-primary, #242727);
+
+  /* Paragraph/P1/SemiBold */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-m, 20px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--font-line-height-m, 28px); /* 140% */
+}
+
+.featureRow th,
+.featureRow td {
+  min-height: 48px;
+  padding: 12px var(--4, 16px);
+  gap: var(--2, 4px);
+  flex: 1 0 0;
+  border-bottom: 1px solid var(--border-transparent, rgba(36, 39, 39, 0.16));
+}
+
+.featureCell {
+  text-align: left;
+  color: var(--text-primary, #242727);
+
+  /* Paragraph/P2/Regular */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+}
+
+.featureLabelWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.featureLabel {
+  color: var(--text-primary, #242727);
+
+  /* Paragraph/P2/Regular */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+}
+
+.featureHelper {
+  width: 16px;
+  height: 16px;
+}
+
+.valueCell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.valueText {
+  color: var(--text-secondary, #565F5F);
+  text-align: center;
+
+  /* Paragraph/P2/Regular */
+  font-family: var(--font-family-body, Figtree);
+  font-size: var(--font-size-s, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--font-line-height-s, 24px); /* 150% */
+}
+
+.checkIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.valueCheck {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

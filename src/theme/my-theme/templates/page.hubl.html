@@ -6,11 +6,10 @@
 {% extends "./layouts/base.hubl.html" %}
 
 {% block body %}
-
-  {% module
-    "gettingStarted"
-    path="../components/modules/GettingStarted",
-    brandColors="{{ theme.brand_color }}",
-  %}
-
+  {% dnd_area "main" %}
+    {% dnd_section %}
+      {% dnd_module path="../components/modules/ComparisonTable" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+  {% end_dnd_area %}
 {% endblock body %}
