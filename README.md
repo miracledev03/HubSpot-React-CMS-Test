@@ -98,3 +98,13 @@ Content can be created or removed directly from the editor.
 `Sections` group related feature rows.
 `Rows` contain a label, an optional helper text value, and a list of values that match the plan order.
 `Values` define the individual cell contents.
+
+---
+
+## Visuals
+### 1. Page View
+![Page View](src/theme/my-theme/assets/readme/page-view.png)
+
+### 2. Page Editor View
+![Page Editor View](src/theme/my-theme/assets/readme/page-editor-view.png)
+
